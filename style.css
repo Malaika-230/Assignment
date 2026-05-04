@@ -46,3 +46,16 @@ height: 100%;
 object-fit: cover; 
 display: block; 
 } 
+/* --- THE MOBILE PHONE (The moving part) --- */ 
+.mobile-container { 
+position: absolute; 
+top: 50%; 
+/* Isay percentage mein lock kiya hai taake ye white aur orange ke junction par rahe */ 
+left: 0; 
+transform: translate(-40%, -50%); 
+width: 35%; /* Box size fixed */ 
+max-width: 300px; 
+z-index: 20; 
+pointer-events: none; /* Mouse moves se disturb nahi hoga */ 
+margin-left: 20%; 
+} 
