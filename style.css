@@ -18,3 +18,9 @@ overflow: hidden; /* Bahar nikalti hui images ko lock karne ke liye */
 
 width: 100%;
 } 
+/* Left Content Area */ 
+.hero-content { 
+padding: 0 10% 0 15%; /* Spacing ko lock kar diya */ 
+position: relative; 
+z-index: 5; 
+} 
