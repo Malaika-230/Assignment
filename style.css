@@ -24,3 +24,9 @@ padding: 0 10% 0 15%; /* Spacing ko lock kar diya */
 position: relative; 
 z-index: 5; 
 } 
+.hero-content h1 { 
+font-size: clamp(2.5rem, 5vw, 4rem); /* Responsive but controlled size */ 
+color: var(--certo-dark-blue); 
+line-height: 1.1; 
+font-weight: 800; 
+} 
