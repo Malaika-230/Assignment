@@ -9,3 +9,12 @@ width: 100%;
 margin: 0; 
 padding: 0; 
 } 
+/* --- HERO SECTION --- */ 
+.hero-section { 
+min-height: 100vh; 
+display: flex; 
+align-items: center; 
+overflow: hidden; /* Bahar nikalti hui images ko lock karne ke liye */ 
+
+width: 100%;
+} 
