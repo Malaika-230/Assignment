@@ -1,0 +1,11 @@
+:root { 
+--certo-blue: #4335DE; 
+--certo-dark-blue: #02033b; 
+--certo-yellow: #FFC043; 
+} 
+html, body {     /* Base Settings to prevent shifting */ 
+overflow-x: hidden; 
+width: 100%; 
+margin: 0; 
+padding: 0; 
+} 
