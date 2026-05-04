@@ -40,3 +40,9 @@ background-color: var(--certo-blue);
 padding-top: 25px; 
 padding-left: 25px; 
 } 
+.hero-bg-image { 
+width: 100%; 
+height: 100%; 
+object-fit: cover; 
+display: block; 
+} 
