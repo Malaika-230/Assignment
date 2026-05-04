@@ -73,3 +73,10 @@ color: var(--certo-dark-blue) !important;
 padding: 12px 30px !important; 
 border-radius: 50px !important; 
 }
+.btn-certo-outline { 
+background: transparent !important; 
+border: 2px solid var(--certo-dark-blue) !important; 
+color: var(--certo-dark-blue) !important; 
+padding: 12px 30px !important; 
+border-radius: 50px !important; 
+} 
