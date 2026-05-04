@@ -59,3 +59,10 @@ z-index: 20;
 pointer-events: none; /* Mouse moves se disturb nahi hoga */ 
 margin-left: 20%; 
 } 
+
+.floating-mobile { 
+width: 100%; 
+height: auto; 
+display: block; 
+filter: drop-shadow(0 20px 50px rgba(0,0,0,0.3)); 
+} 
