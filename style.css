@@ -174,3 +174,10 @@ max-width: 500px;
 width: 100%; 
 height: auto; 
 } 
+/* Cards Image */ 
+.sec2-cards-slider { 
+width: 100%; 
+margin-bottom: 50px; 
+display: flex; 
+justify-content: center; 
+} 
