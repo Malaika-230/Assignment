@@ -503,3 +503,45 @@ margin-bottom: 30px;
     display: flex;
     align-items: center;
 }
+/* Google + Future 50 Stack */
+.stack {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 15px;
+}
+
+.white-logo {
+    filter: brightness(0) invert(1);
+    height: 30px;
+}
+
+.img-google { height: 120px;width: 100%; margin-left: -30%; } /* Google thoda bada hota hai */
+.img-intel { 
+    height: 200px; /* 200px bahut zyada bada tha */
+    width: 120%; 
+    margin-left: 40%;
+    
+    /* Yeh filter white logo ko yellow mein convert kar dega */
+    filter: brightness(0) saturate(100%) invert(89%) sepia(20%) saturate(1200%) hue-rotate(350deg) brightness(105%) contrast(100%);
+}
+
+.future50-box {
+    height: 55px; /* White box size */
+    width: auto;
+  padding-left: 70%;
+    margin-bottom: -50%;
+    
+}
+
+/* Yellow Box Styling */
+.yellow-rect {
+    background-color: #ecb322;
+    height: 140px;width: 70%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: -40px;
+}
