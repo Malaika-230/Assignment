@@ -545,3 +545,67 @@ margin-bottom: 30px;
     margin-left: 40%;
     margin-top: -40px;
 }
+.certo-main {
+    width: 70%; 
+    height: auto;
+    display: block;
+}
+
+/* Image 25: Plus Logo (Jo Certo ke upar aayega) */
+.certo-plus {
+    position: absolute; /* Parent (.yellow-rect) ke upar fix karne ke liye */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Yeh line perfectly center karti hai */
+    width: 80%; /* Size ko adjust karein jaisa image mein chahiye */
+    pointer-events: none; /* Taake niche wali image click ho sake agar zaroorat ho */
+}
+
+/* Text Styling */
+.footer-bottom {
+    margin-top: 50px;
+    text-align: left; /* Text ko left-aligned rakhne ke liye */
+}
+
+.legal-text {
+    font-size: 11px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.4);
+    max-width: 850px; /* Is se text automatic lines mein break ho jayega */
+    margin-bottom: 20px;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 20px 0;
+
+     
+}
+.legal-text{
+     margin-left: -9%;
+    display: flex;
+    flex-direction: column; /* Is se items ek ke neeche ek (next line) aa jayenge */
+    gap: 8px;               /* Dono lines ke darmiyan thoda gap dene ke liye */
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left;
+
+    
+}
+.copyright-row {
+    margin-left: -30%;
+    display: flex;
+    flex-direction: column; /* Is se items ek ke neeche ek (next line) aa jayenge */
+    gap: 8px;               /* Dono lines ke darmiyan thoda gap dene ke liye */
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: left;       /* Text ko left side par align rakhne ke liye */
+}
+
+.copyright-row a {
+    color: white;
+    text-decoration: underline;
+}
+
+.copyright-row a { color: white; text-decoration: underline; }
