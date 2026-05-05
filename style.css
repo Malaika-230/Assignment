@@ -585,8 +585,8 @@ margin-bottom: 30px;
 .legal-text{
      margin-left: -9%;
     display: flex;
-    flex-direction: column; /* Is se items ek ke neeche ek (next line) aa jayenge */
-    gap: 8px;               /* Dono lines ke darmiyan thoda gap dene ke liye */
+    flex-direction: column; 
+    gap: 8px;               
     font-size: 11px;
     color: rgba(255, 255, 255, 0.6);
     text-align: left;
@@ -596,12 +596,11 @@ margin-bottom: 30px;
 .copyright-row {
     margin-left: -30%;
     display: flex;
-    flex-direction: column; /* Is se items ek ke neeche ek (next line) aa jayenge */
-    gap: 8px;               /* Dono lines ke darmiyan thoda gap dene ke liye */
+    flex-direction: column; 
+    gap: 8px;               
     font-size: 11px;
     color: rgba(255, 255, 255, 0.6);
-    text-align: left;       /* Text ko left side par align rakhne ke liye */
-}
+    text-align: left;       
 
 .copyright-row a {
     color: white;
@@ -609,3 +608,4 @@ margin-bottom: 30px;
 }
 
 .copyright-row a { color: white; text-decoration: underline; }
+}
