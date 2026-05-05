@@ -310,3 +310,10 @@ width: 85%;
 margin-bottom: 30px; 
 } 
 }
+                           /*Section 5*/
+/* --- SECTION 5: INFO CARDS --- */
+.info-cards-section {
+    padding: 80px 0;
+    background-color: #ffffff; /* White background as per design */
+    width: 100%;
+}
