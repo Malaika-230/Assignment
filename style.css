@@ -323,3 +323,23 @@ margin-bottom: 30px;
     justify-content: center;
     align-items: center;
 }
+.info-img {
+    width: 50%;
+    max-width: 500px; /* Adjusting size to match design proportions */
+    height: auto;
+    object-fit: contain;
+    /* Adding subtle shadow if the image doesn't already have one */
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.03));
+}
+
+/* --- RESPONSIVE FIX --- */
+@media (max-width: 767px) {
+    .info-cards-section {
+        padding: 40px 15px;
+    }
+    
+    .info-img {
+        max-width: 100%; /* Full width on mobile */
+        margin-bottom: 20px;
+    }
+}
