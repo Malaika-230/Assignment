@@ -274,3 +274,8 @@ flex-direction: column;
 align-items: center; /* Horizontally Center */ 
 text-align: center; 
 } 
+/* Heading Image (image10) */ 
+.spy-header-row { 
+margin-bottom: 60px; /* Image 10 aur 11 ke darmiyan gap */ 
+width: 100%; 
+} 
