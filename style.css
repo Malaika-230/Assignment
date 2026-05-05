@@ -343,3 +343,58 @@ margin-bottom: 30px;
         margin-bottom: 20px;
     }
 }
+  /*Section 6*/
+/* --- SECTION 6: BLUE GRADIENT BANNER --- */
+.cta-gradient-section {
+    /* Linear gradient background as per image_65a580.png */
+    background: linear-gradient(135deg, #4b5df7 0%, #2b38b1 100%);
+    padding: 80px 0;
+    width: 100%;
+    color: white;
+}
+
+/* Image 14 (Text) Styling */
+.cta-text-wrapper {
+    margin-bottom: 40px;
+}
+
+.img-14-cta {
+    max-width: 600px; /* Adjust based on design scale */
+    width: 100%;
+    height: auto;
+}
+
+/* Buttons Alignment */
+.cta-buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between the two buttons */
+    flex-wrap: wrap; /* Wraps buttons on mobile */
+}
+
+/* Image 15 (iPhone Button) Styling */
+.img-15-btn {
+    height: 55px; /* Size to match the Android button height */
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.img-15-btn:hover {
+    transform: translateY(-3px); /* Hover lift effect */
+}
+
+/* Manual Android Button Styling to match Image 15 */
+.android-outline-btn {
+    height: 55px;
+    padding: 0 30px;
+    border: 2px solid white;
+    border-radius: 50px; /* Rounded pill shape */
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
