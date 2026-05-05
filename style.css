@@ -446,3 +446,32 @@ margin-bottom: 30px;
     object-fit: contain;
    
 }
+/* Image 19: Bottom Badge (Large) */
+.img-19-bottom {
+    height: 50px; /* Image 19 ko sabse wazeh rakha hai */
+    width: auto;
+    display: inline-block;
+}
+
+/* --- MOBILE RESPONSIVE --- */
+@media (max-width: 768px) {
+    .footer-stacked-center {
+        padding: 60px 20px;
+    }
+    
+    .img-20-top {
+        max-width: 300px;
+    }
+    
+    .badge-mid {
+        height: 40px; /* Mobile par thora chota rakha hai */
+    }
+    
+    .img-19-bottom {
+        height: 50px;
+    }
+    
+    .middle-badges-row {
+        gap: 25px;
+    }
+}
