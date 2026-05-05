@@ -223,3 +223,11 @@ max-width: 650px;
 height: auto; 
 display: block; 
 } 
+/* Right Content: Visual with Frame */ 
+.mission-visual { 
+position: relative; 
+padding: 30px; /* Space for the yellow frame to show */ 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+} 
