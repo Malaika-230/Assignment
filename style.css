@@ -128,3 +128,14 @@ flex-direction: column;
 padding: 50px 20px; 
 text-align: center; 
 }
+.blue-frame { 
+height: 450px; 
+padding-left: 0; /* Mobile par blue border side se khatam */ 
+} 
+.fixed-btn-img {
+        height: 40px;        /* Smaller size for mobile screens */
+        margin-top: 15px;    /* Adds space from menu links on mobile */
+    }
+     .justify-content-end {
+        justify-content: center !important; /* Centers button on mobile menu */
+    }
