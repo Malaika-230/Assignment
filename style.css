@@ -186,3 +186,9 @@ width: 127%; /* Slightly larger to fully cover the design */
 max-width: none; /* Remove width constraints */ 
 height: auto; 
 } 
+/* Logos Section Fix */ 
+.sec2-logos { 
+width: 100%; 
+display: flex; 
+justify-content: center; 
+} 
