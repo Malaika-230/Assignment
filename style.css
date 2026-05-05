@@ -259,3 +259,12 @@ transform: translate(0, 0);
 display: none; 
 } 
 } 
+                          /*Sectio 4*/ 
+/* --- SECTION 4: LIGHT BLUE/WHITE STYLE --- */ 
+.spyware-full-blue { 
+background-color: #f3f7ff; /* Poora background light blue */ 
+padding: 100px 0; 
+width: 100%; 
+display: flex; 
+justify-content: center; 
+} 
