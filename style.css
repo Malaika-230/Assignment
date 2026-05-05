@@ -231,3 +231,12 @@ display: flex;
 justify-content: center; 
 align-items: center; 
 } 
+.mission-person-img { 
+position: relative; 
+z-index: 2; 
+width: 70%; 
+max-width: 500px; 
+height: auto; 
+border-radius: 5px; 
+transform: translate(-20px, -20px); 
+} 
