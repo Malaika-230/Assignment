@@ -148,3 +148,10 @@ width: 220px;
         height: 35px;    /* Slightly smaller logo for mobile screens */
     }
 }
+                     /*Section 2*/ 
+.section-yellow { 
+background-color: #FFC043; /* Brand yellow background */ 
+padding: 60px 0; 
+width: 100%; 
+overflow: hidden; /* Prevents content from overflowing outside */ 
+} 
