@@ -317,3 +317,9 @@ margin-bottom: 30px;
     background-color: #ffffff; /* White background as per design */
     width: 100%;
 }
+.info-card {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
