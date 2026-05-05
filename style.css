@@ -114,3 +114,7 @@ border-radius: 50px !important;
     display: block;
     transition: transform 0.3s ease; /* Adds a smooth feel for interactions */
 }
+/* Optional: Slight hover effect */
+.fixed-logo:hover {
+    transform: scale(1.02); /* Very subtle growth on hover */
+}
