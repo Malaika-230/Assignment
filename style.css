@@ -192,3 +192,11 @@ width: 100%;
 display: flex; 
 justify-content: center; 
 } 
+.clean-logos { 
+width: 100%; 
+max-width: 1100px; 
+height: auto; 
+/* Ensures logos stay properly contained without extra spacing */ 
+object-fit: contain; 
+display: block; 
+}
