@@ -155,3 +155,11 @@ padding: 60px 0;
 width: 100%; 
 overflow: hidden; /* Prevents content from overflowing outside */ 
 } 
+.sec2-container { 
+max-width: 1200px; 
+margin: 0 auto; 
+padding: 0 20px; 
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+} 
