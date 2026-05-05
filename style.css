@@ -213,3 +213,7 @@ background-color: #ffffff;
 overflow: hidden; 
 width: 1500px; ; 
 } 
+/* Left Content */ 
+.mission-text-wrapper { 
+padding-right: 20px; 
+} 
