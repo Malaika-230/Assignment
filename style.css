@@ -414,3 +414,35 @@ margin-bottom: 30px;
         gap: 15px;
     }
 }
+  /*Section 7*/
+/* --- SECTION 7: STACKED CENTERED LAYOUT (ENHANCED SIZES) --- */
+.footer-stacked-center {
+    background-color: #ffffff; 
+    padding: 100px 0; /* Vertical padding thora barha diya hai */
+    width: 100%;
+}
+
+/* Image 20: Top Logo (Large Size) */
+.img-20-top {
+    max-width: 500px; /* Size barha diya gaya hai */
+    width: 150%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Middle Row: 16, 17, 18 (Large Icons) */
+.middle-badges-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Icons ke darmiyan space barha di hai */
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.badge-mid {
+    height: 400px; /* Size 25px se barha kar 60px kar diya hai */
+    width: auto;
+    object-fit: contain;
+   
+}
