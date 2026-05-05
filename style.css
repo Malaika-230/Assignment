@@ -139,3 +139,12 @@ padding-left: 0; /* Mobile par blue border side se khatam */
      .justify-content-end {
         justify-content: center !important; /* Centers button on mobile menu */
     }
+    .mobile-container { 
+left: 50%; 
+transform: translate(-50%, -50%); 
+width: 220px; 
+} 
+ .fixed-logo {
+        height: 35px;    /* Slightly smaller logo for mobile screens */
+    }
+}
