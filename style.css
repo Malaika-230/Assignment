@@ -252,3 +252,10 @@ margin-top: 50px;
 .mission-img-text { 
 margin: 0 auto; 
 } 
+.mission-person-img { 
+transform: translate(0, 0); 
+} 
+.yellow-boundary { 
+display: none; 
+} 
+} 
