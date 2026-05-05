@@ -398,3 +398,19 @@ margin-bottom: 30px;
     font-weight: 600;
     transition: all 0.3s ease;
 }
+.android-outline-btn:hover {
+    background-color: white;
+    color: #4b5df7;
+}
+
+/* --- MOBILE RESPONSIVE --- */
+@media (max-width: 768px) {
+    .cta-gradient-section {
+        padding: 60px 20px;
+    }
+    
+    .cta-buttons-wrapper {
+        flex-direction: column; /* Stack buttons vertically on mobile */
+        gap: 15px;
+    }
+}
