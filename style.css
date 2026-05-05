@@ -101,3 +101,10 @@ border-radius: 50px !important;
     transform: scale(1.05);  /* Slightly grows when hovered */
     opacity: 0.9;            /* Slightly fades for a button-click feel */
 }
+/* --- NAVBAR LOGO STYLING --- */
+
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Vertically centers the logo in the navbar */
+    padding: 0;          /* Removes default Bootstrap padding for a cleaner look */
+}
