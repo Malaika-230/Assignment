@@ -206,3 +206,10 @@ display: block;
 width: 200%; /* Makes cards feel scrollable on mobile */ 
 } 
 } 
+  /* Section 3*/ 
+.mission-section { 
+padding: 100px 0; 
+background-color: #ffffff; 
+overflow: hidden; 
+width: 1500px; ; 
+} 
