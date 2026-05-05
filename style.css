@@ -285,3 +285,7 @@ width: 35%;
 height: auto; 
 display: inline-block; 
 } 
+/* Features Grid (image11) */ 
+.spy-card-row { 
+width: 100%; 
+} 
