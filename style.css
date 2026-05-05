@@ -118,3 +118,13 @@ border-radius: 50px !important;
 .fixed-logo:hover {
     transform: scale(1.02); /* Very subtle growth on hover */
 }
+/* --- MOBILE RESPONSIVE (Strict Control) --- */ 
+@media (max-width: 991px) { 
+.hero-section { 
+flex-direction: column; 
+} 
+
+.hero-content { 
+padding: 50px 20px; 
+text-align: center; 
+}
