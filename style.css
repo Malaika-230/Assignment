@@ -303,3 +303,10 @@ filter: drop-shadow(0 15px 40px rgba(0,0,0,0.04));
 .spyware-full-blue { 
 padding: 60px 15px; 
 } 
+.img-10-full { 
+width: 85%; 
+} 
+.spy-header-row { 
+margin-bottom: 30px; 
+} 
+}
